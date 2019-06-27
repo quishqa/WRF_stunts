@@ -10,8 +10,8 @@ yf=`echo $line | cut -d ',' -f 6`
 mf=`echo $line | cut -d ',' -f 7`
 df=`echo $line | cut -d ',' -f 8`
 
-st=`echo $line | cut -d ',' -f 9`
-ll=`echo $line | cut -d ',' -f 9`
+#st=`echo $line | cut -d ',' -f 9`
+#ll=`echo $line | cut -d ',' -f 9`
 file="nl${yi}${mi}${di}"
 
 sed "s/YEARI/$yi/g" template.input > $file
